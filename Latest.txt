@@ -1,0 +1,272 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape PRAKASH KUMAR} \\ \vspace{1pt}
+    \\ \vspace{1pt}
+    \small \href{tel:+918210958605}{ \raisebox{-0.1\height}\faPhone\ \underline{+916205300466} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vrprakash18@gmail.com}} ~ 
+    \href{linkedin.com/in/prakash18}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedln}}  ~
+    \href{https://github.com/prabit18}{\raisebox{-0.2\height}\faGithub\ \underline{github}} ~
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATIONS}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute Of Technology Jamshedpur}{07-2017 -- 06-2021}
+      {B.Tech in Electronics and Communication Engineering\textbf{} -\textbf{ CGPA-8.05}}{Jamshedpur,India}
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Radha Krishna Goyenka College Sitamarhi}{2014-2016}
+     {BSEB - \textbf{Percentage} - \textbf{69.4\%}}{Sitamarhi,India}
+  \resumeSubHeadingListEnd 
+  % \resumeSubHeadingListStart
+  %   \resumeSubheading
+  %     {Sri Mathura High School Sitamarhi}{2013-2014}
+  %    {BSEB - \textbf{Percentage} - \textbf{77.6\%}}{Sitamarhi,India}
+  % \resumeSubHeadingListEnd
+   \vspace*{1.0\multicolsep}
+  
+%------RELEVANT COURSEWORK-------
+\section{Technical Skills and Interests}
+   
+       \resumeHeadingSkillStart
+  {\textbf{Languages:}} % Category
+    {C/C++, Python, JavaScript.} \\
+    {\textbf{Frameworks/Libraries::}} % Category
+    {React.Js, Node.Js, Express.Js, MongoDB.} \\
+    {\textbf{Tools:}} % Category
+    {Perforce, GitHub,Visual Studio,Jenkins, Postman, VS Code, PyCharm.} \\
+    {\textbf{Relevant Coursework:}} % Category
+    {Data Structures and Algorithm,IMS, SIP Protocol, OOPs, Operating System, DBMS. } \\
+    {\textbf{Areas of Interest}{: Web Design and Development, Modem IMS Developement.}
+
+% \hfill \textit{\footnotesize{* Elementary proficiency}} \hspace{3mm}
+   \resumeHeadingSkillEnd
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Work Experience}}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Qualcomm India Private Limited }{Bangalore, India}
+      {Associate Software Engineer}{Novemeber 2021 - Present}
+      \vspace{-2.5mm}
+      \resumeItemListStart
+        \item {Contributing to the design, development, and optimization of Modem IP Multimedia Subsystem solutions for IMS Service Manager.}
+        \item {Developed a Complete Responsive web-based XML file editor and validated the XML File using React.Js and Python.}
+        \item {Actively Participating in triaging the Critical Issues with log/Crash Dump Analysis and contributed to providing the quick resolution.}
+        \item {Created an Internal GUI-based Tool to help Increase the Code coverage Using Python and Perforce.}
+        \item {Collaborating and communicating with cross-functional teams to design, develop, troubleshoot, and fix bugs for Enhancing and Adding Required features.}
+        
+      \resumeItemListEnd
+    \vspace{1mm}
+    
+    \resumeSubheading
+      {7EDGE PRIVATE LIMITED}{Mangalore, India}
+      {Software Developer}{June 2021- October 2021}
+      \vspace{-2.5mm}
+      \resumeItemListStart
+        \item {Created web pages(Sign-in/Sign-up pages, Home Page, Restaurant Lists page, Checkout Page), for food delivery Management Platform and managed Admin interface, implemented New Features and functionalites connected through APIs using React, Redux, and Axios.}
+        \item {Built stable and Maintainable Code bases using React.js and Redux.}
+      \resumeItemListEnd
+    \vspace{-5mm}
+\resumeSubHeadingListEnd
+\vspace{1mm}
+
+\section{\textbf{Personal Projects}}
+\resumeSubHeadingListStart
+\vspace{1mm}
+    \resumeProject
+
+      \resumeItemListStart
+        
+      \resumeItemListEnd
+    
+    \vspace{-4.7mm}
+    \resumeProject
+      \textbf{{Daily Delight}{-A Restaurant Management Website}}
+      \resumeItemListStart
+        \item {Designed and Developed an intuitive user interface with interactive elements, fully responsive, exposing menu, location, book table, place order, review.}
+        \item {Implemented a user-friendly admin dashboard for managing Food Items and orders, enhancing the platform's usability.}
+        \item {Tech Stack: React.js, Node.js, MongoDB.}
+      \resumeItemListEnd
+      \resumeProject
+      \textbf{{We the Women}{A Web-based Platform to empower Women}}
+      \resumeItemListStart
+        \item {Designed and Developed an intuitive user interface and Implemented Key Features like adding and reading posts, Live tracking location, Online FIR Platform, Job Portal, and an Online shopping platform to sell and buy the products.}
+        \item {Implemented a user-friendly admin dashboard for managing products and orders, enhancing the platform's usability.}
+        \item {Tech Stack: React.js, Node.js, MongoDB.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-7.0mm}
+ %-----------CERTIFICATIONS---------------
+\section{\textbf{Achievements}}
+\resumeSubHeadingListStart
+\vspace{1mm}
+    \resumeProject
+
+      \resumeItemListStart
+        
+      \resumeItemListEnd
+    
+    \vspace{-4.7mm}
+    
+    \resumeProject
+      \resumeItemListStart
+        \item {Awarded as QualStar and received ThankQ recognition for special accomplishments that are outside the day-to-day project work and taking up new initiatives.}
+        \item {Solved more than 600 Data Structures and Algorithms problems on different coding platforms.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-7.0mm}
+
+ \end{document}
